@@ -1,0 +1,66 @@
+* {
+    font-family: "Nunito", cursive;
+    font-weight: 500;
+    /* font-family: "Righteous", cursive; */
+}
+body.main-page {
+    background: linear-gradient(#00000008, #00000008),
+        url(../img/BG1.png) no-repeat center;
+    background-size: cover;
+}
+.nav-logo {
+    cursor: pointer;
+}
+.nav-logo,
+.title,
+.text_login {
+    font-family: "Righteous", cursive;
+}
+.title {
+    font-size: 3rem;
+}
+
+.content {
+    height: 96vh;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.active > svg path {
+    color: #333;
+    fill: #333;
+}
+
+.navbar-nav,
+.navbar-nav svg path {
+    color: #757474;
+    fill: #757474;
+    font-size: 1em;
+}
+
+/* Dashboard */
+main.content-dashboard {
+    background: linear-gradient(#00000008, #00000008),
+        url(../img/image\ 1.png) no-repeat center;
+    background-size: cover;
+}
+
+@media (max-width: 960px) {
+    .form-login {
+        width: 26rem !important;
+    }
+}
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+    .title ~ p,
+    .copyright {
+        font-size: 0.8rem;
+    }
+    .foto-login {
+        display: none;
+    }
+    .form-login {
+        width: 20rem !important;
+    }
+}
